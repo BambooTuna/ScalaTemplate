@@ -13,7 +13,7 @@ object ScalaMock {
 }
 
 object Akka {
-  private val version     = "2.5.19"
+  private val version     = "2.5.26"
   val actor: ModuleID     = "com.typesafe.akka" %% "akka-actor" % version
   val stream: ModuleID    = "com.typesafe.akka" %% "akka-stream" % version
   val persistence: ModuleID = "com.typesafe.akka" %% "akka-persistence" % version
