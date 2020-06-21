@@ -11,7 +11,7 @@
 ```bash
 $ sh build.sh
 
-// if success, it will return Dockerfile path
+# if success, it will return Dockerfile path
 apiServer/target/docker/stage
 ```
 ```yaml
