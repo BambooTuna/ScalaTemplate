@@ -1,10 +1,9 @@
 # ScalaTemplate
 
 - docker-compose.yaml
-|
-- ScalaTemplate - build.sbt
-                |
-                - apiServer
+- ScalaTemplate
+    - build.sbt
+    - apiServer
                 
 
 ## docker-compose sample
