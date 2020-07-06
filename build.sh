@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd `dirname $0`
+
 SBT_IMAGE_NAME='hseeberger/scala-sbt:8u252_1.3.12_2.12.11'
 
 function sbt_build () {
