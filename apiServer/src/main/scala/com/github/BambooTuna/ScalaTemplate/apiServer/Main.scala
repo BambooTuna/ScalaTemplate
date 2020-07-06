@@ -19,8 +19,10 @@ object Main extends App {
   implicit val materializer: ActorMaterializer = ActorMaterializer()
   implicit val executionContext: ExecutionContextExecutor = system.dispatcher
 
+  val serviceHandler = new ServiceHandler()
+
   val bindingFuture = Http().bindAndHandle(
-    handler = complete(StatusCodes.OK),
+    handler = serviceHandler.toRoutes,
     interface = "0.0.0.0",
     port = 18080
   )
