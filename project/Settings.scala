@@ -43,7 +43,7 @@ object Settings {
 
   lazy val dockerSettings = Seq(
     fork := true,
-    name := "GroupLive",
+    name := "ScalaTemplate",
     dockerBaseImage := sdk8,
     packageName in Docker := "scala-server",
     executableScriptName := "scala-server",
